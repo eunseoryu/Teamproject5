@@ -37,7 +37,7 @@
 </head>
 <body>
 <h1>기숙사 외박 신청</h1>
-<br>관리자님 안녕하세요~ <a href="/login/logout">logout</a>
+<br>관리자님 안녕하세요~ <a href="${pageContext.request.contextPath}/login/logout">logout</a>
 <table id="list" width="90%">
     <tr>
         <th>Id</th>
