@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="test:war exploded" />
+      <artifact name="test:war2" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="edit, add function 수정">
+    <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="logout url 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -56,11 +61,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/HGU/2-2/test/src/main/webapp/WEB-INF/img",
+    "last_opened_file_path": "D:/HGU/2-2/실프_Intelij/Teamproject5",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
     "spring.configuration.checksum": "098f6bcd4621d373cade4e832627b4f6"
   },
   "keyToStringList": {
@@ -185,7 +191,10 @@
       <workItem from="1670516974913" duration="1082000" />
       <workItem from="1670549043064" duration="7731000" />
       <workItem from="1670560323187" duration="10171000" />
-      <workItem from="1670584376255" duration="5797000" />
+      <workItem from="1670584376255" duration="6100000" />
+      <workItem from="1670590656842" duration="335000" />
+      <workItem from="1671109621868" duration="1277000" />
+      <workItem from="1671114187380" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="commit springmybatis">
       <created>1670587249871</created>
@@ -201,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670589482637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="logout url 수정">
+      <created>1670590452630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670590452630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +234,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -229,10 +245,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="team/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit springmybatis" />
     <MESSAGE value="edit, add function 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit, add function 수정" />
+    <MESSAGE value="logout url 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="logout url 수정" />
   </component>
 </project>
