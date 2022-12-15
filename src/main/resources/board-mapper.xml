@@ -2,22 +2,22 @@
 <!DOCTYPE mapper PUBLIC "-//mabatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Board">
     <insert id="insertBoard">
-        insert into Board1 (title, writer, content)
+        insert into dorm (stdnum, stdname, dormname, roomn, outdate, why, in_out)
         values
-        (#{title}, #{writer}, #{content})
-    </insert>
+        (#{stdnum}, #{stdname}, #{dormname}, #{dormname}), #{roomn}, #{outdate} , #{why} , #{in_out}
+        </insert>
     <update id="updateBoard">
-        update Board1
-        set title=#{title}, content=#{content}, writer=#{writer}
-        where seq=#{seq}
+        update dorm
+        set stdnum=#{stdnum}, stdname=#{stdname}, dormname=#{dormname}, dormname=#{dormname}, roomn=#{roomn}, outdate=#{outdate}, why=#{why}, in_out=#{in_out}
+        where num=#{num}
     </update>
     <delete id="deleteBoard">
-        delete from Board1 where seq = #{seq}
+        delete from dorm where num = #{num}
     </delete>
     <select id="getBoard" resultType="board">
-        select* from Board1 where seq=#{seq}
+        select* from dorm where num=#{num}
     </select>
     <select id="getBoardList" resultType="board">
-        select * from Board1 order by seq desc
+        select * from dorm order by num desc
     </select>
 </mapper>

@@ -42,21 +42,25 @@
     <tr>
         <th>Id</th>
         <th>외박</th>
-        <th>신청자</th>
+        <th>학번</th>
+        <th>학생이름</th>
+        <th>기숙사</th>
         <th>외박사유</th>
-        <th>Regdate</th>
+        <th>외박 일자</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
     <c:forEach items="${list}" var="u">
         <tr>
-            <td>${u.seq}</td>
-            <td>${u.title}</td>
-            <td>${u.writer}</td>
-            <td>${u.content}</td>
-            <td>${u.regdate}</td>
+            <td>${u.num}</td>
+            <td>${u.in_out}</td>
+            <td>${u.stdnum}</td>
+            <td>${u.stdname}</td>
+            <td>${u.dormname}</td>
+            <td>${u.why}</td>
+            <td>${u.outdate}</td>
             <td><a href="editform/${u.seq}">Edit</a></td>
-            <td><a href="javascript:delete_ok('${u.seq}')">Delete</td>
+            <td><a href="javascript:delete_ok('${u.num}')">Delete</td>
         </tr>
     </c:forEach>
 </table>

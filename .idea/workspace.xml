@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4888140-0304-4410-ac82-2d1b38e70efa" name="Changes" comment="logout url 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/board-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "098f6bcd4621d373cade4e832627b4f6"
+    "spring.configuration.checksum": "47bc43d1d42421a304d38fc1e83af40d"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -92,14 +94,14 @@
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="test:war exploded">
+        <artifact name="Teamproject5:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/Teamproject5_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="251f5422-db43-4bf4-9869-839d301de24c" />
+        <option name="BASE_DIRECTORY_NAME" value="8131c139-051d-4b67-b7c1-2864b0f1889f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -107,7 +109,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51317" />
+        <option name="DEBUG_PORT" value="59780" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -172,7 +174,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="test:war exploded" />
+          <artifact name="Teamproject5:war exploded" />
         </option>
       </method>
     </configuration>
@@ -195,6 +197,7 @@
       <workItem from="1670590656842" duration="335000" />
       <workItem from="1671109621868" duration="1277000" />
       <workItem from="1671114187380" duration="1379000" />
+      <workItem from="1671115941843" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="commit springmybatis">
       <created>1670587249871</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670590452630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="logout url 수정">
+      <created>1671116098346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671116098346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +244,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="team/main" />
                       </list>
                     </value>
                   </entry>
